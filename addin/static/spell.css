@@ -1,0 +1,134 @@
+﻿.button 
+        {
+            background-color:darkblue;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: solid;
+            position: fixed;
+            font-family: Cambria;
+            font-size: 17px;
+            border-radius:16px;
+            border:none;
+            display:inline-block;
+            color:white;
+        }
+
+.img{
+            position:fixed;
+            left:85px;
+            top: 100px;
+            height:70px;
+            width:150px;
+        }
+
+
+.img1 {
+    position: fixed;
+    left: 15px;
+    top: 25px;
+    height: 30px;
+    width: 30px;
+    transition: all .1s linear;
+}
+
+.img1:active
+        {
+            
+            transform: translateY(4px);
+        }
+
+.button1
+        {
+            top: 100px;
+            left: 40px;
+            width:250px;
+            height:30px;
+            transition: all .1s linear;
+        }
+
+        .button1:active
+        {
+            
+            transform: translateY(4px);
+        }
+
+
+        .label
+        {
+            top:190px;
+            position: fixed;
+            text-align:center;
+            color:white;
+            font-family :'Bell MT';
+            font-size: 25px;
+            font:bold italic;
+            text-decoration:solid;
+        }
+
+        .bg
+        {
+            background-repeat:no-repeat;
+        }
+
+        .output
+        {
+            position: relative;
+            text-align:center;
+            color:red;
+            font-family :'Bell MT';
+            font-size: 25px;
+            font:bold italic;
+            text-decoration:solid; 
+            top:140px;
+        }
+
+        .label2
+        {
+             top:130px;
+            position: fixed;
+            text-align:center;
+            color:darkblue;
+            font-family :'Bell MT';
+            font-size: 25px;
+            font:bold italic;
+            text-decoration:solid;
+        }
+
+         .output1
+        {
+           position: relative;
+            text-align:center;
+            color:green;
+            font-family :'Bell MT';
+            font-size: 25px;
+            font:bold italic;
+            text-decoration:solid; 
+            top:170px;
+        }
+
+         .label3
+         {
+            top:135px;
+            position: fixed;
+            text-align:center;
+            color:darkblue;
+            font-family :'Bell MT';
+            font-size: 25px;
+            font:bold italic;
+            text-decoration:solid; 
+         }
+
+          .output2
+        {
+           position: fixed;
+            text-align:center;
+            color:green;
+            font-family :'Bell MT';
+            font-size: 25px;
+            font:bold italic;
+            text-decoration:solid; 
+            top:150px;
+        }
+
+
+     

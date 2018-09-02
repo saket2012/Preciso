@@ -1,0 +1,136 @@
+﻿.button 
+{
+            background-color: darkblue;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: solid;
+            position: fixed;
+            font-family: Cambria;
+            font-size: 17px;
+            border-radius:16px;
+            border:none;
+            display:inline-block;
+            color:white;
+            position:absolute;
+            display:inline-block;
+             height: 25px;
+    
+}
+
+
+.button1
+{
+    left:105px;
+    top: 290px;    
+    width:125px;           
+      transition: all .1s linear;
+}
+
+
+ .button1:active
+        {
+          
+            transform: translateY(4px);
+        }
+
+ .button2
+{
+     left:105px;
+    top:340px;
+    width:125px;           
+     transition: all .1s linear;
+}
+
+
+ .button2:active
+        {
+          
+            transform: translateY(4px);
+        }
+
+ .button3
+{
+     left:105px;
+    top: 390px;
+    width:125px;           
+       transition: all .1s linear;
+}
+
+
+ .button3:active
+        {
+          
+            transform: translateY(4px);
+        }
+
+.label {
+    top: 125px;
+    position: fixed;
+    text-align: center;
+    color: darkblue;
+    font-family: 'Bell MT';
+    font-size: 30px;
+    font: bold italic;
+    text-decoration: solid;
+}
+
+ .label1
+        {
+            top:225px;
+            position: fixed;
+            text-align:center;
+            color:darkblue;
+            font-family :'Bell MT';
+            font-size: 30px;
+            font:bold italic;
+            text-decoration:solid;
+        }
+
+         .l1    
+        {
+             font-size:22px;
+            left:80px;
+            top: 290px;
+            position: absolute;
+            text-align:center;
+            color:darkblue;
+            font:bold italic;
+            text-decoration:solid;
+        }
+  
+         .l2    
+        {
+             font-size:22px;
+            left:80px;
+            top: 340px;
+            position: absolute;
+            text-align:center;
+            color:darkblue;
+            font:bold italic;
+            text-decoration:solid;
+        }
+  
+        .l3   
+        {
+            font-size:22px;
+            left:80px;
+            top: 390px;
+            position: absolute;
+            text-align:center;
+            color:darkblue;
+            font:bold italic;
+            text-decoration:solid;
+        }
+
+  .img{
+            position:fixed;
+            left:85px;
+            top: 35px;
+            height:70px;
+            width:150px;
+        }
+
+  .bg
+        {
+            background-repeat:no-repeat;
+        }

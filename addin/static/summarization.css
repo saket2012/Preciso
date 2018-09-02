@@ -1,0 +1,72 @@
+.img1 {
+    position: fixed;
+    left: 15px;
+    top: 25px;
+    height: 30px;
+    width: 30px;
+    transition: all .1s linear;
+}
+
+.img1:active
+        {
+            
+            transform: translateY(4px);
+        }
+
+.button
+        {
+      background-color:darkblue;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: solid;
+            position: fixed;
+            font-family: Cambria;
+            font-size: 17px;
+            border-radius:20px;
+            border:none;
+            display:inline-block;
+            color:white;
+            top: 100px;
+            left: 20px;
+            width:280px;
+            height:30px;
+            transition: all .1s linear;
+        }
+
+        .button1:active
+        {
+            
+            transform: translateY(4px);
+        }
+
+        .label
+        {
+            top:190px;
+            position: fixed;
+            text-align:center;
+            color:white;
+            font-family :'Bell MT';
+            font-size: 25px;
+            font:bold italic;
+            text-decoration:solid;
+        }
+
+        .label3
+        {
+            top:150px;
+            position: fixed;
+            text-align:center;
+            color:darkblue;
+            font-family :'Bell MT';
+            font-size: 25px;
+            font:bold italic;
+            text-decoration:solid;
+        }
+        
+        .text
+        {
+            position:fixed;
+            top:210px;
+        }
+
+  

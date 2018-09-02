@@ -1,0 +1,58 @@
+﻿/* Page-specific styling */
+
+
+.button 
+        {
+            background-color:darkblue;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: solid;
+            position: absolute;
+            font-family: Cambria;
+            font-size: 17px;
+            border-radius:16px;
+            border:none;
+            display:inline-block;
+            color:white;
+          
+        }
+
+        .button1
+        {
+            top: 250px;
+            left: 110px;
+            width:100px;
+            height:30px;
+            transition: all .1s linear;
+        }
+
+        .button1:active
+        {
+           
+            transform: translateY(4px);
+        }
+
+        .label
+        {
+            top:150px;
+            position: fixed;
+            text-align:center;
+            color:darkblue;
+            font-family :'Bell MT';
+            font-size: 30px;
+            font:bold italic;
+            text-decoration:solid;
+        }
+
+        .img{
+            position:fixed;
+            left:85px;
+            top: 50px;
+            height:70px;
+            width:150px;
+        }
+
+        .bg
+        {
+            background-repeat:no-repeat;
+        }

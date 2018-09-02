@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'Spell.css') }}">
+    <script>
+        window.addEventListener('scroll', function () {
+            document.body.classList[
+              window.scrollY > 135 ? 'add' : 'remove'
+            ]('scrolled');
+        });
+    </script>
+</head>
+<body>
+    <div id="main-menu">
+        <label class="label3">You could choose form the following :</label>
+        <label class="output">{{sugg1}}</label><br />
+        {% for subList in sugg%}
+        <br />
+        <label class="output">{{ wrongwords[loop.index - 1] }}</label><br />
+        {% for key in subList %}
+        <label class="output1">{{ key }}</label><br />
+        {% endfor %}
+        <br /><br />
+        {% endfor %}
+        <br />
+    </div>
+</body>
+</html>

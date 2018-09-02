@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'Tone.css') }}">
+</head>
+<body>
+    <form action="/tone">
+        <input type="image" src="/static/Image/Back1.jpg" class="img1" alt="Submit form" />
+    </form>
+    <label typeof="text" class="label">Tone of the document seems to be : </label><br />
+    <label class="label1" typeof="text" value="{{ user}}!"></label>
+    <h1 >Tone of the document seems to be : {{ user }}!</h1>
+</body>
+</html>

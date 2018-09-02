@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'Homepage.css') }}">
+</head>
+<body>
+    <img src="/static/Image/Logo.jpg" class="img" />
+    <label typeof="text" class="label">Preciso : Content Improvisation System</label>
+    <label class="label1">Select the feature : </label>
+    <label class="l1">1)</label>
+    <form action="/spell">
+        <input class="button button1" type="submit" value="Spell checking" id="button4" /><br><br>
+    </form>
+    <label class="l2">2)</label>
+    <form action="/summarization">
+        <input class="button button2" type="submit" value="Summarization" id="button5" /><br><br>
+    </form>
+    <label class="l3">3)</label>
+    <form action="/tone">
+        <input class="button button3" type="submit" value="Tone checking" id="button6" /><br><br>
+    </form>
+</body>
+</html>
